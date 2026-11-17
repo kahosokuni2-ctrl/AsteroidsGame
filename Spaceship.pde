@@ -17,7 +17,7 @@ class Spaceship extends Floater
       myCenterY = 200;
       myXspeed = 0;
       myYspeed = 0;
-      myPointDirection = 1;
+      myPointDirection = 0;
     }
     public int getCorners(){
       return corners;
@@ -65,7 +65,7 @@ class Spaceship extends Floater
       myXspeed = x;
     }
     public void setYspeed(double y){
-      myXspeed =y;
+      myYspeed = y;
     }
     
     public double getmyPointDirection(){
