@@ -29,10 +29,10 @@ public void keyPressed() {
      bob.setMyDirection(Math.random()*360);
    }
    if (key == 'd'|| key=='D'){
-     bob.turn(-10);
+     bob.turn(10);
      }
    else if (key=='a'|| key=='A'){
-     bob.turn(10);
+     bob.turn(-10);
      }
    else if (key == 'w'|| key=='W'){
      bob.accelerate(1);
